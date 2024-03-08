@@ -8,3 +8,5 @@ if __name__ == "__main__":
     print("No noise: ", attempt_catch(snorlax, "heavyball"))
     for _ in range(10):
         print("Noisy: ", attempt_catch(snorlax, "heavyball", 0.15))
+
+    
