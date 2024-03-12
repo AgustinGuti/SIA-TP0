@@ -88,10 +88,6 @@ class Pokemon:
         return self._weight
 
     @property
-    def status_effect(self):
-        return self._status_effect
-
-    @property
     def max_hp(self):
         base_hp = self._stats.hp
         level = self.level
